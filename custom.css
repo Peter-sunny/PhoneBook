@@ -1,0 +1,86 @@
+body{
+	overflow: hidden;
+	background: black;
+}
+.container{
+	background: black;
+	color: white;
+}
+#head{
+	    font-variant-caps: small-caps;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: monospace;
+}
+#left{
+	       height: 85vh;
+    background: #120c27;
+    padding-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 44px 10px #120c27;
+    margin-left: 15px;
+   
+}
+#search{
+	        font-size: 32px;
+    background: black;
+    height: 10vh;
+}
+#search-btn{
+	margin-top: 3px;
+}
+.display_name{
+
+	    font-size: 30px;
+    padding-left: 83px;
+    background: black;
+    color: white;
+    /* padding: 2px; */
+    /* padding-top: 19px; */
+    border-radius: 12px;
+    margin: 1px;
+
+}
+.display_name:hover{
+	transform: scale(1.1);
+	transition: 1s;
+	background: white;
+	color: black;
+}
+#list{
+	    height: 72vh;
+    overflow: scroll;
+}
+#list-adj{
+	height: 508px;
+	overflow: hidden;
+}
+#back{
+	    margin-top: 26px;
+    /* margin-right: 151px; */
+    margin-left: 265px;
+}
+#addnew{
+	display: none;
+}
+#update{
+	display: none;
+}
+#delete{
+	background: red;
+	margin: 4px;
+	display: none;
+}
+.form-control{
+	background: white;
+	color: red;
+
+}
+a{
+	text-decoration: unset;
+    color: white;
+}
+#id_input{
+	display: none;
+}
